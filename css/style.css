@@ -10,6 +10,7 @@ body{
 
 /* navigation related styles */
 nav{
+    padding:0 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,4 +46,15 @@ nav  ul li a{
   font-weight: 700;
   padding:15px 30px;
 }
-
+/* header related styles  */
+.header{
+  background: rgb(255, 248, 243);
+}
+.banner{
+  padding:30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 500px;
+}
