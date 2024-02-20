@@ -142,3 +142,30 @@ main section{
   font-size: 30px;
   font-weight: 700;
 }
+.resume-container{
+  display: flex;
+  gap: 20px;
+}
+.resue-item-title{
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute, .resume-item-description{
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.resume-item-institute{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.resume-container hr{
+  margin:20px;
+}
+.download-cv{
+  text-align: center;
+}
